@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="430px"
+   height="128px"
+   viewBox="0 0 430 128"
+   version="1.1"
+   id="svg157"
+   sodipodi:docname="places.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview861"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="286.20147"
+     inkscape:cy="93.691649"
+     inkscape:window-width="1916"
+     inkscape:window-height="1143"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="folder-remote_32_g" />
+  <defs
+     id="defs154" />
+  <g
+     id="folder">
+    <g
+       id="folder_16"
+       stroke-width="1.0"
+       transform="translate(414,0)">
+      <rect
+         id="folder_16_rect"
+         height="16"
+         width="16"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder_16_g">
+        <use
+           id="use542"
+           xlink:href="#folder_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.5)" />
+      </g>
+    </g>
+    <g
+       id="folder_22"
+       stroke-width="0.72727273"
+       transform="translate(392,0)">
+      <rect
+         id="folder_22_rect"
+         height="22"
+         width="22"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder_22_g">
+        <use
+           id="use554"
+           xlink:href="#folder_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.6875)" />
+      </g>
+    </g>
+    <g
+       id="folder_24"
+       stroke-width="0.66666667"
+       transform="translate(368,0)">
+      <rect
+         id="folder_24_rect"
+         height="24"
+         width="24"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder_24_g">
+        <use
+           id="use562"
+           xlink:href="#folder_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.75)" />
+      </g>
+    </g>
+    <g
+       id="folder_32"
+       stroke-width="0.5"
+       transform="translate(336,0)">
+      <rect
+         id="folder_32_rect"
+         height="32"
+         width="32"
+         style="fill:none;stroke:none"
+         x="0"
+         y="0" />
+      <g
+         id="folder_32_g">
+        <path
+           id="folder_32_path1"
+           style="fill:#a89984;stroke:#928374"
+           d="m 4,4 h 8 V 5.5 H 28 V 26 H 4 Z" />
+        <path
+           id="folder_32_rect1"
+           style="fill:#b8bb26;stroke:#98971a"
+           d="M 2,8 H 30 V 28 H 2 Z" />
+      </g>
+    </g>
+    <g
+       id="folder_48"
+       stroke-width="0.375"
+       transform="translate(288,0)">
+      <rect
+         id="folder_48_rect"
+         height="48"
+         width="48"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder_48_g">
+        <use
+           id="use204"
+           xlink:href="#folder_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(1.5)" />
+      </g>
+    </g>
+    <g
+       id="folder_64"
+       stroke-width="0.25"
+       transform="translate(224,0)">
+      <rect
+         id="folder_64_rect"
+         height="64"
+         width="64"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder_64_g">
+        <use
+           id="use192"
+           xlink:href="#folder_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(2)" />
+      </g>
+    </g>
+    <g
+       id="folder_96"
+       stroke-width="0.16666667"
+       transform="translate(128,0)">
+      <rect
+         id="folder_96_rect"
+         height="96"
+         width="96"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder_96_g">
+        <use
+           id="use310"
+           xlink:href="#folder_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(3)" />
+      </g>
+    </g>
+    <g
+       id="folder_128"
+       stroke-width="0.125"
+       transform="translate(0,0)">
+      <rect
+         id="folder_128_rect"
+         height="128"
+         width="128"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder_128_g">
+        <use
+           id="use318"
+           xlink:href="#folder_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(4)" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="folder-remote"
+     transform="translate(0,128)">
+    <g
+       id="folder-remote_16"
+       stroke-width="1.0"
+       transform="translate(414,0)">
+      <rect
+         id="folder-remote_16_rect"
+         height="16"
+         width="16"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder-remote_16_g">
+        <use
+           id="use820"
+           xlink:href="#folder-remote_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.5)" />
+      </g>
+    </g>
+    <g
+       id="folder-remote_22"
+       stroke-width="0.72727273"
+       transform="translate(392,0)">
+      <rect
+         id="folder-remote_22_rect"
+         height="22"
+         width="22"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder-remote_22_g">
+        <use
+           id="use825"
+           xlink:href="#folder-remote_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.6875)" />
+      </g>
+    </g>
+    <g
+       id="folder-remote_24"
+       stroke-width="0.66666667"
+       transform="translate(368,0)">
+      <rect
+         id="folder-remote_24_rect"
+         height="24"
+         width="24"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder-remote_24_g">
+        <use
+           id="use830"
+           xlink:href="#folder-remote_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.75)" />
+      </g>
+    </g>
+    <g
+       id="folder-remote_32"
+       stroke-width="0.5"
+       transform="translate(336,0)">
+      <rect
+         id="folder-remote_32_rect"
+         height="32"
+         width="32"
+         style="fill:none;stroke:none"
+         x="0"
+         y="0" />
+      <g
+         id="folder-remote_32_g">
+        <use
+           xlink:href="#folder_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           id="use835"
+           transform="translate(0,-2)" />
+        <rect
+           id="rect931"
+           x="2"
+           y="28.5"
+           width="28"
+           height="1.5"
+           style="fill:#504945" />
+        <rect
+           id="rect1006"
+           x="12"
+           y="28"
+           width="8"
+           height="2.5"
+           style="fill:#504945" />
+        <rect
+           id="rect1008"
+           x="15.25"
+           y="26.25"
+           width="1.5"
+           height="3"
+           style="fill:#504945" />
+      </g>
+    </g>
+    <g
+       id="folder-remote_48"
+       stroke-width="0.375"
+       transform="translate(288,0)">
+      <rect
+         id="folder-remote_48_rect"
+         height="48"
+         width="48"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder-remote_48_g">
+        <use
+           id="use840"
+           xlink:href="#folder-remote_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(1.5)" />
+      </g>
+    </g>
+    <g
+       id="folder-remote_64"
+       stroke-width="0.25"
+       transform="translate(224,0)">
+      <rect
+         id="folder-remote_64_rect"
+         height="64"
+         width="64"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder-remote_64_g">
+        <use
+           id="use845"
+           xlink:href="#folder-remote_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(2)" />
+      </g>
+    </g>
+    <g
+       id="folder-remote_96"
+       stroke-width="0.16666667"
+       transform="translate(128,0)">
+      <rect
+         id="folder-remote_96_rect"
+         height="96"
+         width="96"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder-remote_96_g">
+        <use
+           id="use850"
+           xlink:href="#folder-remote_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(3)" />
+      </g>
+    </g>
+    <g
+       id="folder-remote_128"
+       stroke-width="0.125"
+       transform="translate(0,0)">
+      <rect
+         id="folder-remote_128_rect"
+         height="128"
+         width="128"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="folder-remote_128_g">
+        <use
+           id="use855"
+           xlink:href="#folder-remote_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(4)" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="user-bookmarks"
+     transform="translate(0,256)">
+    <g
+       id="user-bookmarks_16"
+       stroke-width="1.0"
+       transform="translate(414,0)">
+      <rect
+         id="user-bookmarks_16_rect"
+         height="16"
+         width="16"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-bookmarks_16_g">
+        <use
+           id="use820"
+           xlink:href="#user-bookmarks_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.5)" />
+      </g>
+    </g>
+    <g
+       id="user-bookmarks_22"
+       stroke-width="0.72727273"
+       transform="translate(392,0)">
+      <rect
+         id="user-bookmarks_22_rect"
+         height="22"
+         width="22"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-bookmarks_22_g">
+        <use
+           id="use825"
+           xlink:href="#user-bookmarks_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.6875)" />
+      </g>
+    </g>
+    <g
+       id="user-bookmarks_24"
+       stroke-width="0.66666667"
+       transform="translate(368,0)">
+      <rect
+         id="user-bookmarks_24_rect"
+         height="24"
+         width="24"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-bookmarks_24_g">
+        <use
+           id="use830"
+           xlink:href="#user-bookmarks_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.75)" />
+      </g>
+    </g>
+    <g
+       id="user-bookmarks_32"
+       stroke-width="0.5"
+       transform="translate(336,0)">
+      <rect
+         id="user-bookmarks_32_rect"
+         height="32"
+         width="32"
+         style="fill:none;stroke:none"
+         x="0"
+         y="0" />
+      <g
+         id="user-bookmarks_32_g">
+        <use
+           xlink:href="#folder_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           id="use835" />
+      </g>
+    </g>
+    <g
+       id="user-bookmarks_48"
+       stroke-width="0.375"
+       transform="translate(288,0)">
+      <rect
+         id="user-bookmarks_48_rect"
+         height="48"
+         width="48"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-bookmarks_48_g">
+        <use
+           id="use840"
+           xlink:href="#user-bookmarks_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(1.5)" />
+      </g>
+    </g>
+    <g
+       id="user-bookmarks_64"
+       stroke-width="0.25"
+       transform="translate(224,0)">
+      <rect
+         id="user-bookmarks_64_rect"
+         height="64"
+         width="64"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-bookmarks_64_g">
+        <use
+           id="use845"
+           xlink:href="#user-bookmarks_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(2)" />
+      </g>
+    </g>
+    <g
+       id="user-bookmarks_96"
+       stroke-width="0.16666667"
+       transform="translate(128,0)">
+      <rect
+         id="user-bookmarks_96_rect"
+         height="96"
+         width="96"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-bookmarks_96_g">
+        <use
+           id="use850"
+           xlink:href="#user-bookmarks_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(3)" />
+      </g>
+    </g>
+    <g
+       id="user-bookmarks_128"
+       stroke-width="0.125"
+       transform="translate(0,0)">
+      <rect
+         id="user-bookmarks_128_rect"
+         height="128"
+         width="128"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-bookmarks_128_g">
+        <use
+           id="use855"
+           xlink:href="#user-bookmarks_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(4)" />
+      </g>
+    </g>
+  </g>
+</svg>
