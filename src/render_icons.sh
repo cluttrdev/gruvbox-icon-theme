@@ -37,6 +37,7 @@ done
 # create output directory
 mkdir -p $THEMEDIR
 
+# set up theme file header
 cat << EOF > $THEMEDIR/index.theme
 [Icon Theme]
 Name=${THEMENAME}
@@ -60,12 +61,12 @@ do
         mkdir -p $CURRENT_TARGETDIR
 
         # create icon index available for export
-        $INKSCAPE -S $SOURCEDIR/$context.svg \
+        $INKSCAPE -S $TEMPDIR/$context.svg \
             | grep -E "_${size}," \
             | sed 's/\,.*$//' \
-            > index.tmp
+            > $TEMPDIR/index.tmp
 
-        for OBJECT_ID in $(cat index.tmp)
+        for OBJECT_ID in $(cat $TEMPDIR/index.tmp)
         do
             ICON_NAME=$(sed "s/\_${size}.*$//" <<< $OBJECT_ID)
 
@@ -78,7 +79,7 @@ do
                 $INKSCAPE --export-id=$OBJECT_ID \
                     --export-id-only \
                     -o $ICON_PATH \
-                    $SOURCEDIR/$context.svg
+                    $TEMPDIR/$context.svg
             fi
         done
 

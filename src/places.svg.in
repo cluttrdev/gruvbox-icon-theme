@@ -34,24 +34,6 @@
      inkscape:current-layer="folder_32_g" />
   <defs
      id="defs154">
-    <linearGradient
-       id="color_accent">
-      <stop
-         id="stop2720"
-         stop-color="${COLOR_ACCENT}" />
-    </linearGradient>
-    <linearGradient
-       id="color_accent_neutral">
-      <stop
-         id="stop3028"
-         stop-color="${COLOR_ACCENT_NEUTRAL}" />
-    </linearGradient>
-    <linearGradient
-       id="color_imprint">
-      <stop
-         id="stop3256"
-         stop-color="${COLOR_IMPRINT}" />
-    </linearGradient>
   </defs>
   <g
      id="folder">
@@ -139,12 +121,12 @@
          id="folder_32_g">
         <path
            id="folder_32_path1"
-           style="fill:#a89984;stroke:#928374"
+           style="fill:${COLOR_FG3};stroke:${COLOR_FG4}"
            d="m 4,4 h 8 V 5.5 H 28 V 26 H 4 Z" />
         <path
            id="folder_32_rect1"
            d="M 2,8 H 30 V 28 H 2 Z"
-           style="fill:url(#color_accent);stroke:url(#color_accent_neutral)" />
+           style="fill:${COLOR_ACCENT};stroke:${COLOR_ACCENT_NEUTRAL}" />
       </g>
     </g>
     <g
@@ -333,27 +315,28 @@
            height="100%"
            id="use835"
            transform="translate(0,-2)" />
-        <rect
-           id="rect931"
-           x="2"
-           y="28.5"
-           width="28"
-           height="1.5"
-           style="fill:#504945" />
-        <rect
-           id="rect1006"
-           x="12"
-           y="28"
-           width="8"
-           height="2.5"
-           style="fill:#504945" />
-        <rect
-           id="rect1008"
-           x="15.25"
-           y="26.25"
-           width="1.5"
-           height="3"
-           style="fill:#504945" />
+        <g
+           id="g452"
+           style="fill:${COLOR_FG2}" >
+          <rect
+             id="rect931"
+             x="2"
+             y="28.5"
+             width="28"
+             height="1.5" />
+          <rect
+             id="rect1006"
+             x="12"
+             y="28"
+             width="8"
+             height="2.5" />
+          <rect
+             id="rect1008"
+             x="15.25"
+             y="26.25"
+             width="1.5"
+             height="3" />
+        </g>
       </g>
     </g>
     <g
@@ -544,7 +527,7 @@
         <path
            id="path1407"
            d="M 12,13 L 20,13 L 20,23 L 16,19 L 12,23 Z"
-           style="fill:#a89984" />
+           style="fill:${COLOR_IMPRINT}" />
       </g>
     </g>
     <g
