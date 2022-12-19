@@ -3,8 +3,8 @@
 
 <svg
    width="430px"
-   height="640"
-   viewBox="0 0 430 640"
+   height="768"
+   viewBox="0 0 430 768"
    version="1.1"
    id="svg157"
    sodipodi:docname="places.svg"
@@ -1007,6 +1007,203 @@
         <use
            id="use1401"
            xlink:href="#user-desktop_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(4)" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="user-trash"
+     transform="translate(0,640)">
+    <g
+       id="user-trash_16"
+       stroke-width="1.0"
+       transform="translate(414,0)">
+      <rect
+         id="user-trash_16_rect"
+         height="16"
+         width="16"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-trash_16_g">
+        <use
+           id="use7956"
+           xlink:href="#user-trash_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.5)" />
+      </g>
+    </g>
+    <g
+       id="user-trash_22"
+       stroke-width="0.72727273"
+       transform="translate(392,0)">
+      <rect
+         id="user-trash_22_rect"
+         height="22"
+         width="22"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-trash_22_g">
+        <use
+           id="use7953"
+           xlink:href="#user-trash_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.6875)" />
+      </g>
+    </g>
+    <g
+       id="user-trash_24"
+       stroke-width="0.66666667"
+       transform="translate(368,0)">
+      <rect
+         id="user-trash_24_rect"
+         height="24"
+         width="24"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-trash_24_g">
+        <use
+           id="use7950"
+           xlink:href="#user-trash_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.75)" />
+      </g>
+    </g>
+    <g
+       id="user-trash_32"
+       stroke-width="0.5"
+       transform="translate(336,0)">
+      <rect
+         id="user-trash_32_rect"
+         height="32"
+         width="32"
+         style="fill:none;stroke:none"
+         x="0"
+         y="0" />
+      <g
+         id="user-trash_32_g">
+        <path
+           id="path7510"
+           d="M 4,5 L 28,5 L 28.5,6.5 L 3.5,6.5 Z"
+           style="fill:${COLOR_SECONDARY_ALT};stroke:${COLOR_SECONDARY_ALT};stroke-linejoin:round" />
+        <path
+           id="path7514"
+           d="M 3.5,6.5 L 28.5,6.5 L 26,27 L 6,27 Z"
+           style="fill:${COLOR_SECONDARY};stroke:${COLOR_SECONDARY_ALT};stroke-linejoin:round" />
+        <path
+           id="path7512"
+           d="M 6,27 L 26,27 L 25.5,29 L 6.5,29 Z"
+           style="fill:${COLOR_SECONDARY_ALT};stroke:${COLOR_SECONDARY_ALT};stroke-linejoin:round" />
+        <path
+           id="path7948"
+           d="m 11.905785,21.820534 c -0.12795,0.2298 -0.229794,0.575555 -0.229794,0.79342 0,0.05057 0,0.114905 0.01255,0.204145 l -1.599216,-2.750345 c -0.05119,-0.08924 -0.08931,-0.21727 -0.08931,-0.33262 0,-0.1155 0.03815,-0.255905 0.08931,-0.3453 l 0.767746,-1.3433 -0.85706,-0.48573 2.78899,-0.05163 1.35583,2.44323 -0.86959,-0.49885 z M 13.1342,13.768358 c 0.242865,-0.4226 0.639795,-0.652858 1.12552,-0.652858 0.524885,0 0.93436,0.24338 1.228395,0.741637 l 0.435055,0.729107 -1.50992,2.9104 -2.443229,-1.720207 z m 0.17861,10.265146 c -0.729105,0 -1.33026,-0.601225 -1.33026,-1.330315 0,-0.20474 0.08983,-0.550475 0.217785,-0.767745 l 0.408945,-0.729105 3.032365,0 0,2.827185 -2.328835,0 z M 15.744045,13.691058 C 15.55235,13.35888 15.29644,13.12803 14.989345,13 l 3.14674,0 c 0.281501,0 0.49877,0.1155 0.62726,0.333209 l 0.780294,1.330315 0.844076,-0.499308 -1.356446,2.431138 -2.77541,-0.0391 0.857065,-0.485725 z m 4.848925,7.540931 c 0.383344,0 0.70351,-0.10236 0.971969,-0.30666 l -1.586684,2.76286 c -0.127955,0.217265 -0.357905,0.35426 -0.626291,0.3453 l -1.497385,0 0,0.985015 -1.43262,-2.39204 1.43262,-2.39265 0,0.998155 2.73839,0 z m 1.22736,-2.3028 c 0.115425,0.20474 0.17966,0.422005 0.17966,0.652395 0,0.46065 -0.294565,0.946815 -0.703511,1.176635 -0.19219,0.10297 -0.461649,0.182955 -0.729105,0.16713 l -0.84505,0 -1.50894,-2.61036 2.4433,-1.39449 z"
+           transform="translate(0,-2)"
+           style="fill:${COLOR_PRIMARY}" />
+      </g>
+    </g>
+    <g
+       id="user-trash_48"
+       stroke-width="0.375"
+       transform="translate(288,0)">
+      <rect
+         id="user-trash_48_rect"
+         height="48"
+         width="48"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-trash_48_g">
+        <use
+           id="use1386"
+           xlink:href="#user-trash_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(1.5)" />
+      </g>
+    </g>
+    <g
+       id="user-trash_64"
+       stroke-width="0.25"
+       transform="translate(224,0)">
+      <rect
+         id="user-trash_64_rect"
+         height="64"
+         width="64"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-trash_64_g">
+        <use
+           id="use1391"
+           xlink:href="#user-trash_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(2)" />
+      </g>
+    </g>
+    <g
+       id="user-trash_96"
+       stroke-width="0.16666667"
+       transform="translate(128,0)">
+      <rect
+         id="user-trash_96_rect"
+         height="96"
+         width="96"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-trash_96_g">
+        <use
+           id="use1396"
+           xlink:href="#user-trash_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(3)" />
+      </g>
+    </g>
+    <g
+       id="user-trash_128"
+       stroke-width="0.125"
+       transform="translate(0,0)">
+      <rect
+         id="user-trash_128_rect"
+         height="128"
+         width="128"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-trash_128_g">
+        <use
+           id="use1401"
+           xlink:href="#user-trash_32_g"
            x="0"
            y="0"
            width="100%"
