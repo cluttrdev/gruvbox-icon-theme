@@ -9,6 +9,32 @@ SOURCEDIR=./
 THEMENAME=gruvbox-dark-green
 THEMEDIR=../build/$THEMENAME
 
+# --------
+# create temporary directory
+TEMPDIR=$(mktemp -d)
+
+# check if temp dir exists
+if [[ ! "$TEMPDIR" || ! -d "$TEMPDIR" ]]
+then
+    echo "Temporary working directory could not be created"
+    exit 1
+fi
+
+# cleanup temp dir on exit
+trap "rm -rf ${TEMPDIR}" EXIT
+# --------
+
+# get color variables
+source $SOURCEDIR/colors.sh
+
+# create context source files from templates
+for context in places
+do
+    # substitute placeholders in template files with env variables
+    cat $SOURCEDIR/$context.svg.in | envsubst > $TEMPDIR/$context.svg
+done
+
+# create output directory
 mkdir -p $THEMEDIR
 
 cat << EOF > $THEMEDIR/index.theme
@@ -20,28 +46,28 @@ EOF
 
 declare -a directories=()
 
-for SIZE in 16 22 24 32 48 64 96 128
+for size in 16 22 24 32 48 64 96 128
 do
 
-    mkdir -p $THEMEDIR/$SIZE
+    mkdir -p $THEMEDIR/$size
 
-    for CONTEXT in places 
+    for context in places 
     do
-        directories+=("${SIZE}/${CONTEXT}")
+        directories+=("${size}/${context}")
 
-        CURRENT_TARGETDIR=$THEMEDIR/$SIZE/$CONTEXT
+        CURRENT_TARGETDIR=$THEMEDIR/$size/$context
 
         mkdir -p $CURRENT_TARGETDIR
 
         # create icon index available for export
-        $INKSCAPE -S $SOURCEDIR/$CONTEXT.svg \
-            | grep -E "_${SIZE}," \
+        $INKSCAPE -S $SOURCEDIR/$context.svg \
+            | grep -E "_${size}," \
             | sed 's/\,.*$//' \
             > index.tmp
 
         for OBJECT_ID in $(cat index.tmp)
         do
-            ICON_NAME=$(sed "s/\_${SIZE}.*$//" <<< $OBJECT_ID)
+            ICON_NAME=$(sed "s/\_${size}.*$//" <<< $OBJECT_ID)
 
             ICON_PATH=$CURRENT_TARGETDIR/$ICON_NAME.png
 
@@ -52,11 +78,11 @@ do
                 $INKSCAPE --export-id=$OBJECT_ID \
                     --export-id-only \
                     -o $ICON_PATH \
-                    $SOURCEDIR/$CONTEXT.svg
+                    $SOURCEDIR/$context.svg
             fi
         done
 
-        cp -r $SOURCEDIR/symlinks/$CONTEXT/* $CURRENT_TARGETDIR/
+        cp -r $SOURCEDIR/symlinks/$context/* $CURRENT_TARGETDIR/
     done
 
 done

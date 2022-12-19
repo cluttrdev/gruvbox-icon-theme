@@ -3,8 +3,8 @@
 
 <svg
    width="430px"
-   height="128px"
-   viewBox="0 0 430 128"
+   height="384px"
+   viewBox="0 0 430 384"
    version="1.1"
    id="svg157"
    sodipodi:docname="places.svg"
@@ -23,17 +23,36 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="286.20147"
-     inkscape:cy="93.691649"
+     inkscape:zoom="11.313708"
+     inkscape:cx="338.79254"
+     inkscape:cy="28.461048"
      inkscape:window-width="1916"
      inkscape:window-height="1143"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="folder-remote_32_g" />
+     inkscape:current-layer="folder_32_g" />
   <defs
-     id="defs154" />
+     id="defs154">
+    <linearGradient
+       id="color_accent">
+      <stop
+         id="stop2720"
+         stop-color="${COLOR_ACCENT}" />
+    </linearGradient>
+    <linearGradient
+       id="color_accent_neutral">
+      <stop
+         id="stop3028"
+         stop-color="${COLOR_ACCENT_NEUTRAL}" />
+    </linearGradient>
+    <linearGradient
+       id="color_imprint">
+      <stop
+         id="stop3256"
+         stop-color="${COLOR_IMPRINT}" />
+    </linearGradient>
+  </defs>
   <g
      id="folder">
     <g
@@ -124,8 +143,8 @@
            d="m 4,4 h 8 V 5.5 H 28 V 26 H 4 Z" />
         <path
            id="folder_32_rect1"
-           style="fill:#b8bb26;stroke:#98971a"
-           d="M 2,8 H 30 V 28 H 2 Z" />
+           d="M 2,8 H 30 V 28 H 2 Z"
+           style="fill:url(#color_accent);stroke:url(#color_accent_neutral)" />
       </g>
     </g>
     <g
@@ -447,7 +466,7 @@
       <g
          id="user-bookmarks_16_g">
         <use
-           id="use820"
+           id="use1366"
            xlink:href="#user-bookmarks_32_g"
            x="0"
            y="0"
@@ -470,7 +489,7 @@
       <g
          id="user-bookmarks_22_g">
         <use
-           id="use825"
+           id="use1371"
            xlink:href="#user-bookmarks_32_g"
            x="0"
            y="0"
@@ -493,7 +512,7 @@
       <g
          id="user-bookmarks_24_g">
         <use
-           id="use830"
+           id="use1376"
            xlink:href="#user-bookmarks_32_g"
            x="0"
            y="0"
@@ -521,7 +540,11 @@
            y="0"
            width="100%"
            height="100%"
-           id="use835" />
+           id="use1381" />
+        <path
+           id="path1407"
+           d="M 12,13 L 20,13 L 20,23 L 16,19 L 12,23 Z"
+           style="fill:#a89984" />
       </g>
     </g>
     <g
@@ -538,7 +561,7 @@
       <g
          id="user-bookmarks_48_g">
         <use
-           id="use840"
+           id="use1386"
            xlink:href="#user-bookmarks_32_g"
            x="0"
            y="0"
@@ -561,7 +584,7 @@
       <g
          id="user-bookmarks_64_g">
         <use
-           id="use845"
+           id="use1391"
            xlink:href="#user-bookmarks_32_g"
            x="0"
            y="0"
@@ -584,7 +607,7 @@
       <g
          id="user-bookmarks_96_g">
         <use
-           id="use850"
+           id="use1396"
            xlink:href="#user-bookmarks_32_g"
            x="0"
            y="0"
@@ -607,7 +630,7 @@
       <g
          id="user-bookmarks_128_g">
         <use
-           id="use855"
+           id="use1401"
            xlink:href="#user-bookmarks_32_g"
            x="0"
            y="0"
