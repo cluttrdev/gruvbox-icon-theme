@@ -3,8 +3,8 @@
 
 <svg
    width="430px"
-   height="512"
-   viewBox="0 0 430 512"
+   height="640"
+   viewBox="0 0 430 640"
    version="1.1"
    id="svg157"
    sodipodi:docname="places.svg"
@@ -798,6 +798,215 @@
         <use
            id="use1401"
            xlink:href="#user-home_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(4)" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="user-desktop"
+     transform="translate(0,512)">
+    <g
+       id="user-desktop_16"
+       stroke-width="1.0"
+       transform="translate(414,0)">
+      <rect
+         id="user-desktop_16_rect"
+         height="16"
+         width="16"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-desktop_16_g">
+        <use
+           id="use1366"
+           xlink:href="#user-desktop_24_favicon"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.66666667)" />
+      </g>
+    </g>
+    <g
+       id="user-desktop_22"
+       stroke-width="0.72727273"
+       transform="translate(392,0)">
+      <rect
+         id="user-desktop_22_rect"
+         height="22"
+         width="22"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-desktop_22_g">
+        <use
+           id="use1371"
+           xlink:href="#user-desktop_24_favicon"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.91666667)" />
+      </g>
+    </g>
+    <g
+       id="user-desktop_24"
+       stroke-width="0.66666667"
+       transform="translate(368,0)">
+      <rect
+         id="user-desktop_24_rect"
+         height="24"
+         width="24"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-desktop_24_g">
+        <g
+           id="user-desktop_24_favicon">
+          <rect
+             id="rect6460"
+             x="3"
+             y="4"
+             width="18"
+             height="15"
+             style="fill:${COLOR_SECONDARY};stroke:${COLOR_SECONDARY_ALT}" />
+          <rect
+             id="rect6462"
+             x="3"
+             y="4"
+             width="18"
+             height="2"
+             style="fill:${COLOR_SECONDARY_ALT}" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="user-desktop_32"
+       stroke-width="0.5"
+       transform="translate(336,0)">
+      <rect
+         id="user-desktop_32_rect"
+         height="32"
+         width="32"
+         style="fill:none;stroke:none"
+         x="0"
+         y="0" />
+      <g
+         id="user-desktop_32_g">
+        <rect
+           id="rect6450"
+           x="2"
+           y="4"
+           width="28"
+           height="24"
+           style="fill:${COLOR_SECONDARY};stroke:${COLOR_SECONDARY_ALT}" />
+        <rect
+           id="rect6454"
+           x="2"
+           y="4"
+           width="28"
+           height="3"
+           style="fill:${COLOR_SECONDARY_ALT}" />
+        <circle
+           id="circle6456"
+           cx="4"
+           cy="5.5"
+           r="0.75"
+           style="fill:${COLOR_PRIMARY}" />
+      </g>
+    </g>
+    <g
+       id="user-desktop_48"
+       stroke-width="0.375"
+       transform="translate(288,0)">
+      <rect
+         id="user-desktop_48_rect"
+         height="48"
+         width="48"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-desktop_48_g">
+        <use
+           id="use1386"
+           xlink:href="#user-desktop_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(1.5)" />
+      </g>
+    </g>
+    <g
+       id="user-desktop_64"
+       stroke-width="0.25"
+       transform="translate(224,0)">
+      <rect
+         id="user-desktop_64_rect"
+         height="64"
+         width="64"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-desktop_64_g">
+        <use
+           id="use1391"
+           xlink:href="#user-desktop_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(2)" />
+      </g>
+    </g>
+    <g
+       id="user-desktop_96"
+       stroke-width="0.16666667"
+       transform="translate(128,0)">
+      <rect
+         id="user-desktop_96_rect"
+         height="96"
+         width="96"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-desktop_96_g">
+        <use
+           id="use1396"
+           xlink:href="#user-desktop_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(3)" />
+      </g>
+    </g>
+    <g
+       id="user-desktop_128"
+       stroke-width="0.125"
+       transform="translate(0,0)">
+      <rect
+         id="user-desktop_128_rect"
+         height="128"
+         width="128"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-desktop_128_g">
+        <use
+           id="use1401"
+           xlink:href="#user-desktop_32_g"
            x="0"
            y="0"
            width="100%"
