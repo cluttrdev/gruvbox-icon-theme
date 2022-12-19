@@ -450,12 +450,12 @@
          id="user-bookmarks_16_g">
         <use
            id="use1366"
-           xlink:href="#user-bookmarks_32_g"
+           xlink:href="#user-bookmarks_24_favicon"
            x="0"
            y="0"
            width="100%"
            height="100%"
-           transform="scale(0.5)" />
+           transform="scale(0.66666667)" />
       </g>
     </g>
     <g
@@ -473,12 +473,12 @@
          id="user-bookmarks_22_g">
         <use
            id="use1371"
-           xlink:href="#user-bookmarks_32_g"
+           xlink:href="#user-bookmarks_24_favicon"
            x="0"
            y="0"
            width="100%"
            height="100%"
-           transform="scale(0.6875)" />
+           transform="scale(0.91666667)" />
       </g>
     </g>
     <g
@@ -494,14 +494,10 @@
          style="fill:none;stroke:none" />
       <g
          id="user-bookmarks_24_g">
-        <use
-           id="use1376"
-           xlink:href="#user-bookmarks_32_g"
-           x="0"
-           y="0"
-           width="100%"
-           height="100%"
-           transform="scale(0.75)" />
+        <path
+           id="user-bookmarks_24_favicon"
+           d="M 5,4 L 19,4 L 19,20 L 12,15 L 5,20 Z"
+           style="fill:${COLOR_FG3};stroke:${COLOR_FG4}" />
       </g>
     </g>
     <g
@@ -524,10 +520,10 @@
            width="100%"
            height="100%"
            id="use1381" />
-        <path
-           id="path1407"
-           d="M 12,13 L 20,13 L 20,23 L 16,19 L 12,23 Z"
-           style="fill:${COLOR_FG3};stroke:${COLOR_FG4}" />
+        <use
+           id="use3998"
+           xlink:href="#user-bookmarks_24_favicon"
+           transform="translate(7,9) scale(0.75)" />
       </g>
     </g>
     <g
