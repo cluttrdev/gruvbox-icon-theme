@@ -1,2 +1,2 @@
-# gruvbox-dark-icon-theme
+# gruvbox-icon-theme
 

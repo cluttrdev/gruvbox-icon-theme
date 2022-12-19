@@ -6,7 +6,10 @@ INKSCAPE=/usr/bin/inkscape
 
 SOURCEDIR=./
 
-THEMENAME=gruvbox-dark-green
+PALETTEMODE=dark
+PALETTEACCENT=green
+
+THEMENAME=gruvbox-${PALETTEMODE}-${PALETTEACCENT}
 THEMEDIR=../build/$THEMENAME
 
 # --------
@@ -41,7 +44,7 @@ mkdir -p $THEMEDIR
 cat << EOF > $THEMEDIR/index.theme
 [Icon Theme]
 Name=${THEMENAME}
-Comment=A dark gruvbox icon theme with green accent
+Comment=An icon theme following the gruvbox palette in ${PALETTEMODE} mode with ${PALETTEACCENT} accent color.
 Inherits=Arc,Adwaita
 EOF
 
