@@ -3,8 +3,8 @@
 
 <svg
    width="430px"
-   height="384px"
-   viewBox="0 0 430 384"
+   height="512"
+   viewBox="0 0 430 512"
    version="1.1"
    id="svg157"
    sodipodi:docname="places.svg"
@@ -121,12 +121,12 @@
          id="folder_32_g">
         <path
            id="folder_32_path1"
-           style="fill:${COLOR_FG3};stroke:${COLOR_FG4}"
+           style="fill:${COLOR_SECONDARY};stroke:${COLOR_SECONDARY_ALT}"
            d="m 4,4 h 8 V 5.5 H 28 V 26 H 4 Z" />
         <path
            id="folder_32_rect1"
            d="M 2,8 H 30 V 28 H 2 Z"
-           style="fill:${COLOR_ACCENT};stroke:${COLOR_ACCENT_NEUTRAL}" />
+           style="fill:${COLOR_PRIMARY};stroke:${COLOR_PRIMARY_ALT}" />
       </g>
     </g>
     <g
@@ -317,7 +317,7 @@
            transform="translate(0,-2)" />
         <g
            id="g452"
-           style="fill:${COLOR_FG2}" >
+           style="fill:${COLOR_DETAIL}" >
           <rect
              id="rect931"
              x="2"
@@ -497,7 +497,7 @@
         <path
            id="user-bookmarks_24_favicon"
            d="M 5,4 L 19,4 L 19,20 L 12,15 L 5,20 Z"
-           style="fill:${COLOR_FG3};stroke:${COLOR_FG4}" />
+           style="fill:${COLOR_DETAIL};stroke:${COLOR_DETAIL_ALT}" />
       </g>
     </g>
     <g
@@ -611,6 +611,193 @@
         <use
            id="use1401"
            xlink:href="#user-bookmarks_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(4)" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="user-home"
+     transform="translate(0,384)">
+    <g
+       id="user-home_16"
+       stroke-width="1.0"
+       transform="translate(414,0)">
+      <rect
+         id="user-home_16_rect"
+         height="16"
+         width="16"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-home_16_g">
+        <use
+           id="use1366"
+           xlink:href="#user-home_24_favicon"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.66666667)" />
+      </g>
+    </g>
+    <g
+       id="user-home_22"
+       stroke-width="0.72727273"
+       transform="translate(392,0)">
+      <rect
+         id="user-home_22_rect"
+         height="22"
+         width="22"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-home_22_g">
+        <use
+           id="use1371"
+           xlink:href="#user-home_24_favicon"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.91666667)" />
+      </g>
+    </g>
+    <g
+       id="user-home_24"
+       stroke-width="0.66666667"
+       transform="translate(368,0)">
+      <rect
+         id="user-home_24_rect"
+         height="24"
+         width="24"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-home_24_g">
+        <path
+           id="user-home_24_favicon"
+           d="M 12,4 L 19,9 L 19,20 L 5,20 L 5,9 Z"
+           style="fill:${COLOR_DETAIL};stroke:${COLOR_DETAIL_ALT}" />
+      </g>
+    </g>
+    <g
+       id="user-home_32"
+       stroke-width="0.5"
+       transform="translate(336,0)">
+      <rect
+         id="user-home_32_rect"
+         height="32"
+         width="32"
+         style="fill:none;stroke:none"
+         x="0"
+         y="0" />
+      <g
+         id="user-home_32_g">
+        <use
+           xlink:href="#folder_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           id="use1381" />
+        <use
+           id="use3998"
+           xlink:href="#user-home_24_favicon"
+           transform="translate(7,8) scale(0.75)" />
+      </g>
+    </g>
+    <g
+       id="user-home_48"
+       stroke-width="0.375"
+       transform="translate(288,0)">
+      <rect
+         id="user-home_48_rect"
+         height="48"
+         width="48"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-home_48_g">
+        <use
+           id="use1386"
+           xlink:href="#user-home_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(1.5)" />
+      </g>
+    </g>
+    <g
+       id="user-home_64"
+       stroke-width="0.25"
+       transform="translate(224,0)">
+      <rect
+         id="user-home_64_rect"
+         height="64"
+         width="64"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-home_64_g">
+        <use
+           id="use1391"
+           xlink:href="#user-home_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(2)" />
+      </g>
+    </g>
+    <g
+       id="user-home_96"
+       stroke-width="0.16666667"
+       transform="translate(128,0)">
+      <rect
+         id="user-home_96_rect"
+         height="96"
+         width="96"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-home_96_g">
+        <use
+           id="use1396"
+           xlink:href="#user-home_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(3)" />
+      </g>
+    </g>
+    <g
+       id="user-home_128"
+       stroke-width="0.125"
+       transform="translate(0,0)">
+      <rect
+         id="user-home_128_rect"
+         height="128"
+         width="128"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="user-home_128_g">
+        <use
+           id="use1401"
+           xlink:href="#user-home_32_g"
            x="0"
            y="0"
            width="100%"
