@@ -527,7 +527,7 @@
         <path
            id="path1407"
            d="M 12,13 L 20,13 L 20,23 L 16,19 L 12,23 Z"
-           style="fill:${COLOR_IMPRINT}" />
+           style="fill:${COLOR_FG3};stroke:${COLOR_FG4}" />
       </g>
     </g>
     <g
