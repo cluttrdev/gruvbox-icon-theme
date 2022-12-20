@@ -3,8 +3,8 @@
 
 <svg
    width="430px"
-   height="896"
-   viewBox="0 0 430 896"
+   height="1024px"
+   viewBox="0 0 430 1024"
    version="1.1"
    id="svg157"
    sodipodi:docname="places.svg"
@@ -1476,6 +1476,324 @@
         <use
            id="use9383"
            xlink:href="#network-server_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(4)" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="network-workgroup"
+     transform="translate(0,896)">
+    <g
+       id="network-workgroup_16"
+       stroke-width="1.0"
+       transform="translate(414,0)">
+      <rect
+         id="network-workgroup_16_rect"
+         height="16"
+         width="16"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="network-workgroup_16_g">
+        <use
+           id="use968"
+           xlink:href="#network-workgroup_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.5)" />
+      </g>
+    </g>
+    <g
+       id="network-workgroup_22"
+       stroke-width="0.72727273"
+       transform="translate(392,0)">
+      <rect
+         id="network-workgroup_22_rect"
+         height="22"
+         width="22"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="network-workgroup_22_g">
+        <use
+           id="use973"
+           xlink:href="#network-workgroup_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.6875)" />
+      </g>
+    </g>
+    <g
+       id="network-workgroup_24"
+       stroke-width="0.66666667"
+       transform="translate(368,0)">
+      <rect
+         id="network-workgroup_24_rect"
+         height="24"
+         width="24"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="network-workgroup_24_g">
+        <use
+           id="use978"
+           xlink:href="#network-workgroup_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(0.75)" />
+      </g>
+    </g>
+    <g
+       id="network-workgroup_32"
+       stroke-width="0.5"
+       transform="translate(336,0)">
+      <rect
+         id="network-workgroup_32_rect"
+         height="32"
+         width="32"
+         style="fill:none;stroke:none"
+         x="0"
+         y="0" />
+      <g
+         id="network-workgroup_32_g"
+         style="stroke-width:0.5">
+        <g
+           id="g989"
+           style="fill:${COLOR_DETAIL}"
+           transform="translate(0,-13)">
+          <rect
+             id="rect983"
+             x="2"
+             y="28.5"
+             width="28"
+             height="1" />
+          <rect
+             id="rect985"
+             x="13"
+             y="28"
+             width="6"
+             height="2" />
+          <rect
+             id="rect1142"
+             x="5"
+             y="28"
+             width="6"
+             height="2" />
+          <rect
+             id="rect1140"
+             x="21"
+             y="28"
+             width="6"
+             height="2" />
+          <rect
+             id="rect987"
+             x="15.5"
+             y="26.25"
+             width="1"
+             height="3" />
+          <rect
+             id="rect1144"
+             x="7.5"
+             y="28.75"
+             width="1"
+             height="3" />
+          <rect
+             id="rect1146"
+             x="23.5"
+             y="28.75"
+             width="1"
+             height="3" />
+        </g>
+        <g
+           id="g1121"
+           transform="translate(9.5,3) scale(0.4)">
+          <rect
+             id="rect991"
+             x="2"
+             y="4"
+             width="28"
+             height="22"
+             style="fill:${COLOR_SECONDARY};stroke:${COLOR_DETAIL_ALT}" />
+          <g
+             id="g1011">
+            <rect
+               id="rect993"
+               x="4"
+               y="19"
+               width="24"
+               height="6"
+               style="fill:${COLOR_SECONDARY_ALT};stroke:${COLOR_DETAIL_ALT}" />
+            <g
+               id="g1001"
+               style="fill:#282828;stroke:none"
+               transform="translate(1,1)">
+              <rect
+                 id="rect995"
+                 x="5"
+                 y="19"
+                 width="1"
+                 height="4" />
+              <rect
+                 id="rect997"
+                 x="7"
+                 y="19"
+                 width="1"
+                 height="4" />
+              <rect
+                 id="rect999"
+                 x="9"
+                 y="19"
+                 width="1"
+                 height="4" />
+            </g>
+            <g
+               id="g1009"
+               transform="translate(-1,1)">
+              <circle
+                 id="circle1003"
+                 cx="22"
+                 cy="21"
+                 r="0.5"
+                 style="fill:${COLOR_PRIMARY}" />
+              <circle
+                 id="circle1005"
+                 cx="24"
+                 cy="21"
+                 r="0.5"
+                 style="fill:${COLOR_PRIMARY}" />
+              <circle
+                 id="circle1007"
+                 cx="26"
+                 cy="21"
+                 r="0.5"
+                 style="fill:#282828" />
+            </g>
+          </g>
+          <use
+             id="use1013"
+             xlink:href="#g9493"
+             transform="translate(0,-7)"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+          <use
+             id="use1015"
+             xlink:href="#g9493"
+             transform="translate(0,-14)"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+        </g>
+        <use
+           id="use1136"
+           xlink:href="#g1121"
+           transform="translate(8,14)" />
+        <use
+           id="use1138"
+           xlink:href="#g1121"
+           transform="translate(-8,14)" />
+      </g>
+    </g>
+    <g
+       id="network-workgroup_48"
+       stroke-width="0.375"
+       transform="translate(288,0)">
+      <rect
+         id="network-workgroup_48_rect"
+         height="48"
+         width="48"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="network-workgroup_48_g">
+        <use
+           id="use1020"
+           xlink:href="#network-workgroup_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(1.5)" />
+      </g>
+    </g>
+    <g
+       id="network-workgroup_64"
+       stroke-width="0.25"
+       transform="translate(224,0)">
+      <rect
+         id="network-workgroup_64_rect"
+         height="64"
+         width="64"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="network-workgroup_64_g">
+        <use
+           id="use1025"
+           xlink:href="#network-workgroup_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(2)" />
+      </g>
+    </g>
+    <g
+       id="network-workgroup_96"
+       stroke-width="0.16666667"
+       transform="translate(128,0)">
+      <rect
+         id="network-workgroup_96_rect"
+         height="96"
+         width="96"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="network-workgroup_96_g">
+        <use
+           id="use1030"
+           xlink:href="#network-workgroup_32_g"
+           x="0"
+           y="0"
+           width="100%"
+           height="100%"
+           transform="scale(3)" />
+      </g>
+    </g>
+    <g
+       id="network-workgroup_128"
+       stroke-width="0.125"
+       transform="translate(0,0)">
+      <rect
+         id="network-workgroup_128_rect"
+         height="128"
+         width="128"
+         x="0"
+         y="0"
+         style="fill:none;stroke:none" />
+      <g
+         id="network-workgroup_128_g">
+        <use
+           id="use1035"
+           xlink:href="#network-workgroup_32_g"
            x="0"
            y="0"
            width="100%"
