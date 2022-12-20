@@ -1,16 +1,45 @@
 #!/usr/bin/env bash
 
 set -eu
+set -o pipefail
 
 INKSCAPE=/usr/bin/inkscape
 
-SOURCEDIR=./
+DIR=$(dirname "${BASH_SOURCE[0]}")
+
+# --------
+# default options
+SOURCEDIR=${DIR}
+BUILDDIR=${DIR}/../build
 
 PALETTEMODE=dark
 PALETTEACCENT=green
 
-THEMENAME=gruvbox-${PALETTEMODE}-${PALETTEACCENT}
-THEMEDIR=../build/$THEMENAME
+optstring="s:b:m:c:"
+while getopts ${optstring} arg; do
+    case ${arg} in
+		s) # source dir
+			;;
+		b) # build dir
+			;;
+        m) # palette mode
+            if grep -qw "${OPTARG}" <<< "dark light"; then
+                PALETTEMODE=${OPTARG}
+            else
+                echo "Invalid palette mode: ${OPTARG}"
+                exit 1
+            fi
+            ;;
+        c) # accent color
+            if grep -qw "${OPTARG}" <<< "red green yellow blue purple aqua orange"; then
+                PALETTEACCENT=${OPTARG}
+            else
+                echo "Invalid accent color: ${OPTARG}"
+                exit 1
+            fi
+            ;;
+    esac
+done
 
 # --------
 # create temporary directory
@@ -28,6 +57,9 @@ trap "rm -rf ${TEMPDIR}" EXIT
 # --------
 
 # get color variables
+export PALETTE_MODE=${PALETTEMODE}
+export PALETTE_ACCENT=${PALETTEACCENT}
+
 source $SOURCEDIR/colors.sh
 
 # create context source files from templates
@@ -38,15 +70,10 @@ do
 done
 
 # create output directory
-mkdir -p $THEMEDIR
+THEMENAME=gruvbox-${PALETTEMODE}-${PALETTEACCENT}
+THEMEDIR=$BUILDDIR/$THEMENAME
 
-# set up theme file header
-cat << EOF > $THEMEDIR/index.theme
-[Icon Theme]
-Name=${THEMENAME}
-Comment=An icon theme following the gruvbox palette in ${PALETTEMODE} mode with ${PALETTEACCENT} accent color.
-Inherits=Arc,Adwaita
-EOF
+mkdir -p $THEMEDIR
 
 declare -a directories=()
 
@@ -90,6 +117,14 @@ do
     done
 
 done
+
+# set up theme file header
+cat << EOF > $THEMEDIR/index.theme
+[Icon Theme]
+Name=${THEMENAME}
+Comment=An icon theme following the gruvbox palette in ${PALETTEMODE} mode with ${PALETTEACCENT} accent color.
+Inherits=Arc,Adwaita
+EOF
 
 directory_list=$(printf ",%s" "${directories[@]}")
 directory_list=${directory_list:1}
