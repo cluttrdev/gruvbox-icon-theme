@@ -4,8 +4,8 @@ BUILD_DIR := build
 
 INSTALL_DIR := /usr/share/icons
 
-MODE?=dark
-ACCENT?=green
+MODE ?= dark
+ACCENT ?= green
 
 render:
 	@echo "Rendering $(MODE) $(ACCENT) icons..."
@@ -21,6 +21,6 @@ render-all:
 	done
 
 install:
-	cp -r $(BUILD_DIR)/* $(INSTALL_DIR)
+	@cp -r $(BUILD_DIR)/* $(INSTALL_DIR)
 
-.PHONY: render-all install
+.PHONY: render render-all install
