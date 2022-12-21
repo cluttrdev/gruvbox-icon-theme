@@ -49,87 +49,117 @@ case ${PALETTE_MODE} in
 	dark)
 		case ${PALETTE_ACCENT} in
 			red)
-				export COLOR_PRIMARY=${GB_BRIGHT_RED}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_RED}
+				export COLOR_ACCENT=${GB_BRIGHT_RED}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_RED}
 				;;
 			green)
-				export COLOR_PRIMARY=${GB_BRIGHT_GREEN}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_GREEN}
+				export COLOR_ACCENT=${GB_BRIGHT_GREEN}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_GREEN}
 				;;
 			yellow)
-				export COLOR_PRIMARY=${GB_BRIGHT_YELLOW}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_YELLOW}
+				export COLOR_ACCENT=${GB_BRIGHT_YELLOW}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_YELLOW}
 				;;
 			blue)
-				export COLOR_PRIMARY=${GB_BRIGHT_BLUE}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_BLUE}
+				export COLOR_ACCENT=${GB_BRIGHT_BLUE}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_BLUE}
 				;;
 			purple)
-				export COLOR_PRIMARY=${GB_BRIGHT_PURPLE}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_PURPLE}
+				export COLOR_ACCENT=${GB_BRIGHT_PURPLE}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_PURPLE}
 				;;
 			aqua)
-				export COLOR_PRIMARY=${GB_BRIGHT_AQUA}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_AQUA}
+				export COLOR_ACCENT=${GB_BRIGHT_AQUA}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_AQUA}
 				;;
 			orange)
-				export COLOR_PRIMARY=${GB_BRIGHT_ORANGE}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_ORANGE}
+				export COLOR_ACCENT=${GB_BRIGHT_ORANGE}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_ORANGE}
 				;;
 			*)
 				echo "Invalid accent color."
 				;;
 		esac
 
-		export COLOR_SECONDARY=${GB_LIGHT2}
-		export COLOR_SECONDARY_ALT=${GB_LIGHT4}
+        export COLOR_BG0_H=${GB_DARK0_HARD}
+        export COLOR_BG0=${GB_DARK0}
+        export COLOR_BG0_S=${GB_DARK0_SOFT}
+        export COLOR_BG1=${GB_DARK1}
+        export COLOR_BG2=${GB_DARK2}
+        export COLOR_BG3=${GB_DARK3}
+        export COLOR_BG4=${GB_DARK4}
 
-		export COLOR_DETAIL=${GB_LIGHT3}
-		export COLOR_DETAIL_ALT=${GB_DARK2}
+        export COLOR_GRAY=${GB_GRAY}
+
+        export COLOR_FG0=${GB_LIGHT0}
+        export COLOR_FG1=${GB_LIGHT1}
+        export COLOR_FG2=${GB_LIGHT2}
+        export COLOR_FG3=${GB_LIGHT3}
+        export COLOR_FG4=${GB_LIGHT4}
 		;;
 	light)
 		case ${PALETTE_ACCENT} in
 			red)
-				export COLOR_PRIMARY=${GB_FADED_RED}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_RED}
+				export COLOR_ACCENT=${GB_FADED_RED}
+                export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_RED}
 				;;
 			green)
-				export COLOR_PRIMARY=${GB_FADED_GREEN}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_GREEN}
+				export COLOR_ACCENT=${GB_FADED_GREEN}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_GREEN}
 				;;
 			yellow)
-				export COLOR_PRIMARY=${GB_FADED_YELLOW}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_YELLOW}
+				export COLOR_ACCENT=${GB_FADED_YELLOW}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_YELLOW}
 				;;
 			blue)
-				export COLOR_PRIMARY=${GB_FADED_BLUE}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_BLUE}
+				export COLOR_ACCENT=${GB_FADED_BLUE}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_BLUE}
 				;;
 			purple)
-				export COLOR_PRIMARY=${GB_FADED_PURPLE}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_PURPLE}
+				export COLOR_ACCENT=${GB_FADED_PURPLE}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_PURPLE}
 				;;
 			aqua)
-				export COLOR_PRIMARY=${GB_FADED_AQUA}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_AQUA}
+				export COLOR_ACCENT=${GB_FADED_AQUA}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_AQUA}
 				;;
 			orange)
-				export COLOR_PRIMARY=${GB_FADED_ORANGE}
-				export COLOR_PRIMARY_ALT=${GB_NEUTRAL_ORANGE}
+				export COLOR_ACCENT=${GB_FADED_ORANGE}
+				export COLOR_ACCENT_NEUTRAL=${GB_NEUTRAL_ORANGE}
 				;;
 			*)
 				echo "Invalid accent color."
 				;;
 		esac
 
-		export COLOR_SECONDARY=${GB_DARK2}
-		export COLOR_SECONDARY_ALT=${GB_DARK4}
+        export COLOR_BG0_H=${GB_LIGHT0_HARD}
+        export COLOR_BG0=${GB_LIGHT0}
+        export COLOR_BG0_S=${GB_LIGHT0_SOFT}
+        export COLOR_BG1=${GB_LIGHT1}
+        export COLOR_BG2=${GB_LIGHT2}
+        export COLOR_BG3=${GB_LIGHT3}
+        export COLOR_BG4=${GB_LIGHT4}
 
-		export COLOR_DETAIL=${GB_DARK3}
-		export COLOR_DETAIL_ALT=${GB_LIGHT2}
+        export COLOR_GRAY=${GB_GRAY}
+
+        export COLOR_FG0=${GB_DARK0}
+        export COLOR_FG1=${GB_DARK1}
+        export COLOR_FG2=${GB_DARK2}
+        export COLOR_FG3=${GB_DARK3}
+        export COLOR_FG4=${GB_DARK4}
 		;;
 	*)
 		echo "Invalid palette mode."
 		;;
 esac
+
+
+export COLOR_PRIMARY=${COLOR_ACCENT}
+export COLOR_PRIMARY_ALT=${COLOR_ACCENT_NEUTRAL}
+
+export COLOR_SECONDARY=${COLOR_FG2}
+export COLOR_SECONDARY_ALT=${COLOR_FG4}
+
+export COLOR_DETAIL=${COLOR_FG3}
+export COLOR_DETAIL_ALT=${COLOR_BG2}
 
