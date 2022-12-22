@@ -1482,24 +1482,24 @@
     </g>
   </g>
   <g
-     id="text-c-generic-template"
+     id="text-x-generic-template"
      transform="translate(0,896)">
     <g
-       id="text-c-generic-template_16"
+       id="text-x-generic-template_16"
        stroke-width="1.0"
        transform="translate(414,0)">
       <rect
-         id="text-c-generic-template_16_rect"
+         id="text-x-generic-template_16_rect"
          height="16"
          width="16"
          x="0"
          y="0"
          style="fill:none;stroke:none" />
       <g
-         id="text-c-generic-template_16_g">
+         id="text-x-generic-template_16_g">
         <use
            id="use542"
-           xlink:href="#text-c-generic-template_32_g"
+           xlink:href="#text-x-generic-template_32_g"
            x="0"
            y="0"
            width="100%"
@@ -1508,21 +1508,21 @@
       </g>
     </g>
     <g
-       id="text-c-generic-template_22"
+       id="text-x-generic-template_22"
        stroke-width="0.72727273"
        transform="translate(392,0)">
       <rect
-         id="text-c-generic-template_22_rect"
+         id="text-x-generic-template_22_rect"
          height="22"
          width="22"
          x="0"
          y="0"
          style="fill:none;stroke:none" />
       <g
-         id="text-c-generic-template_22_g">
+         id="text-x-generic-template_22_g">
         <use
            id="use554"
-           xlink:href="#text-c-generic-template_32_g"
+           xlink:href="#text-x-generic-template_32_g"
            x="0"
            y="0"
            width="100%"
@@ -1531,21 +1531,21 @@
       </g>
     </g>
     <g
-       id="text-c-generic-template_24"
+       id="text-x-generic-template_24"
        stroke-width="0.66666667"
        transform="translate(368,0)">
       <rect
-         id="text-c-generic-template_24_rect"
+         id="text-x-generic-template_24_rect"
          height="24"
          width="24"
          x="0"
          y="0"
          style="fill:none;stroke:none" />
       <g
-         id="text-c-generic-template_24_g">
+         id="text-x-generic-template_24_g">
         <use
            id="use562"
-           xlink:href="#text-c-generic-template_32_g"
+           xlink:href="#text-x-generic-template_32_g"
            x="0"
            y="0"
            width="100%"
@@ -1554,18 +1554,18 @@
       </g>
     </g>
     <g
-       id="text-c-generic-template_32"
+       id="text-x-generic-template_32"
        stroke-width="0.49999"
        transform="translate(336,0)">
       <rect
-         id="text-c-generic-template_32_rect"
+         id="text-x-generic-template_32_rect"
          height="32"
          width="32"
          style="fill:none;stroke:none;stroke-width:0.49999"
          x="0"
          y="0" />
       <g
-         id="text-c-generic-template_32_g">
+         id="text-x-generic-template_32_g">
         <rect
            id="rect521"
            width="22"
@@ -1616,21 +1616,21 @@
       </g>
     </g>
     <g
-       id="text-c-generic-template_48"
+       id="text-x-generic-template_48"
        stroke-width="0.375"
        transform="translate(288,0)">
       <rect
-         id="text-c-generic-template_48_rect"
+         id="text-x-generic-template_48_rect"
          height="48"
          width="48"
          x="0"
          y="0"
          style="fill:none;stroke:none" />
       <g
-         id="text-c-generic-template_48_g">
+         id="text-x-generic-template_48_g">
         <use
            id="use204"
-           xlink:href="#text-c-generic-template_32_g"
+           xlink:href="#text-x-generic-template_32_g"
            x="0"
            y="0"
            width="100%"
@@ -1639,21 +1639,21 @@
       </g>
     </g>
     <g
-       id="text-c-generic-template_64"
+       id="text-x-generic-template_64"
        stroke-width="0.25"
        transform="translate(224,0)">
       <rect
-         id="text-c-generic-template_64_rect"
+         id="text-x-generic-template_64_rect"
          height="64"
          width="64"
          x="0"
          y="0"
          style="fill:none;stroke:none" />
       <g
-         id="text-c-generic-template_64_g">
+         id="text-x-generic-template_64_g">
         <use
            id="use192"
-           xlink:href="#text-c-generic-template_32_g"
+           xlink:href="#text-x-generic-template_32_g"
            x="0"
            y="0"
            width="100%"
@@ -1662,21 +1662,21 @@
       </g>
     </g>
     <g
-       id="text-c-generic-template_96"
+       id="text-x-generic-template_96"
        stroke-width="0.16666667"
        transform="translate(128,0)">
       <rect
-         id="text-c-generic-template_96_rect"
+         id="text-x-generic-template_96_rect"
          height="96"
          width="96"
          x="0"
          y="0"
          style="fill:none;stroke:none" />
       <g
-         id="text-c-generic-template_96_g">
+         id="text-x-generic-template_96_g">
         <use
            id="use310"
-           xlink:href="#text-c-generic-template_32_g"
+           xlink:href="#text-x-generic-template_32_g"
            x="0"
            y="0"
            width="100%"
@@ -1685,21 +1685,21 @@
       </g>
     </g>
     <g
-       id="text-c-generic-template_128"
+       id="text-x-generic-template_128"
        stroke-width="0.125"
        transform="translate(0,0)">
       <rect
-         id="text-c-generic-template_128_rect"
+         id="text-x-generic-template_128_rect"
          height="128"
          width="128"
          x="0"
          y="0"
          style="fill:none;stroke:none" />
       <g
-         id="text-c-generic-template_128_g">
+         id="text-x-generic-template_128_g">
         <use
            id="use318"
-           xlink:href="#text-c-generic-template_32_g"
+           xlink:href="#text-x-generic-template_32_g"
            x="0"
            y="0"
            width="100%"

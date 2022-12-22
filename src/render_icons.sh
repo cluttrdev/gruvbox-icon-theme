@@ -62,11 +62,13 @@ export PALETTE_ACCENT=${PALETTEACCENT}
 
 source $SOURCEDIR/colors.sh
 
+declare -a CONTEXTS=(mimetypes places)
+
 # create context source files from templates
-for context in places
+for context in ${CONTEXTS[@]}
 do
     # substitute placeholders in template files with env variables
-    cat $SOURCEDIR/$context.svg.in | envsubst > $TEMPDIR/$context.svg
+    cat $SOURCEDIR/templates/$context.svg.in | envsubst > $TEMPDIR/$context.svg
 done
 
 # create output directory
@@ -82,7 +84,7 @@ do
 
     mkdir -p $THEMEDIR/$size
 
-    for context in places 
+    for context in ${CONTEXTS[@]}
     do
         directories+=("${size}/${context}")
 
@@ -113,7 +115,10 @@ do
             fi
         done
 
-        cp -r $SOURCEDIR/symlinks/$context/* $CURRENT_TARGETDIR/
+        if [ -d $SOURCEDIR/symlinks/$context ]
+        then
+            cp -r $SOURCEDIR/symlinks/$context/* $CURRENT_TARGETDIR/
+        fi
     done
 
 done
@@ -135,7 +140,7 @@ cat << EOF >> $THEMEDIR/index.theme
 Directories=${directory_list}
 EOF
 
-declare -A CONTEXTS=(
+declare -A CONTEXTS_MAP=(
     [actions]="Actions"
     [animations]="Animations"
     [apps]="Applications"
@@ -157,7 +162,7 @@ do
     cat << EOF >> $THEMEDIR/index.theme
 
 [${dir}]
-Context=${CONTEXTS[${context}]}
+Context=${CONTEXTS_MAP[${context}]}
 Size=${size}
 Type=Fixed
 EOF
