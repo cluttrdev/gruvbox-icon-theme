@@ -95,9 +95,10 @@ do
         # create icon index available for export
         $INKSCAPE -S $TEMPDIR/$context.svg \
             | grep -E "_${size}," \
-            | sed 's/\,.*$//' \
+            | cut -d ',' -f 1 \
             > $TEMPDIR/index.tmp
 
+        # export objects as png files
         for OBJECT_ID in $(cat $TEMPDIR/index.tmp)
         do
             ICON_NAME=$(sed "s/\_${size}.*$//" <<< $OBJECT_ID)
@@ -106,7 +107,7 @@ do
 
             if [ -f $ICON_PATH ]
             then
-                echo "${ICON_PATH} exusts"
+                echo "${ICON_PATH} exists"
             else
                 $INKSCAPE --export-id=$OBJECT_ID \
                     --export-id-only \
@@ -115,6 +116,7 @@ do
             fi
         done
 
+        # add any symlinks
         if [ -d $SOURCEDIR/symlinks/$context ]
         then
             cp -r $SOURCEDIR/symlinks/$context/* $CURRENT_TARGETDIR/
@@ -123,18 +125,15 @@ do
 
 done
 
+directory_list=$(printf ",%s" "${directories[@]}")
+directory_list=${directory_list:1}
+
 # set up theme file header
 cat << EOF > $THEMEDIR/index.theme
 [Icon Theme]
 Name=${THEMENAME}
-Comment=An icon theme following the gruvbox palette in ${PALETTEMODE} mode with ${PALETTEACCENT} accent color.
+Comment=An simple icon theme following the gruvbox palette in ${PALETTEMODE} mode with ${PALETTEACCENT} accent color.
 Inherits=Arc,Adwaita
-EOF
-
-directory_list=$(printf ",%s" "${directories[@]}")
-directory_list=${directory_list:1}
-
-cat << EOF >> $THEMEDIR/index.theme
 
 # Directory list
 Directories=${directory_list}
